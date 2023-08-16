@@ -1,0 +1,408 @@
+.Hero{
+
+height: 80vh;
+background-color: antiquewhite;
+background-image: url('/public/Images/hero.jpg');
+background-position: center;
+background-size: cover;
+object-fit: cover;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+
+}
+
+.hero-text{
+
+width: 50%;
+
+}
+
+
+.hero-text h1{
+font-weight: 800;
+font-size: 3rem;
+    
+    }
+
+
+.card-wrapper{
+width: 100%;
+background-color: white;
+height: 20vh;
+border-radius: 10px;
+position: relative;
+top: 230px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 2px rgb(160, 160, 160);
+}
+
+.container-inner{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+width: 100%;
+
+}
+.book{
+
+
+
+    padding: 20px 40px;
+    font-size:20px ;
+}
+
+.form-select{
+
+
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+
+.form-select:focus {
+border: none;
+outline: none;
+box-shadow: none;
+}
+
+
+
+
+.dark{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+margin-top:0px;
+    background-color: black;
+    color: #ffffff;
+    height: 30vh;
+    padding-top: 50px;
+}
+
+.lux{
+
+
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20px
+
+}
+
+
+.rht h1{
+
+font-weight: 800;
+
+}
+.lft img:hover{
+
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+
+.bg-room{
+
+    background-image: url('/public/Images/bg-room.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+    height: 100vh;
+    display: flex;
+    position: relative;
+
+ 
+
+}
+.crd{
+width: 30vw;
+    height:35vh;
+    position:absolute;
+    top: 300px;
+    left: 50%;
+}
+.crd h1{
+
+    font-weight: 800;
+}
+
+.img-text{
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    text-align:justify;
+
+}
+
+.img-text h1{
+
+
+    font-weight: 900;
+}
+.img-text img:hover{
+
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+@keyframes slideFromRightToLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .ham{
+
+        display: block;
+    }
+
+    .hero-text{
+
+
+
+    }
+.login{
+
+    display:none;
+}
+    .links{
+
+        display: none;
+    }
+  }
+
+
+.comfort h1{
+
+
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+    .hero-text{
+
+  margin-top: 10px;
+
+    }
+    .hero-text h1{
+
+   font-size: 8vw;
+      
+          }
+          .card-wrapper{
+position: absolute;
+           width:100%;
+      top: 650px;
+      height: 15vh;
+
+          }
+          .book{
+
+
+
+            padding: 5px 15px;
+            font-size:20px ;
+        }
+        .container-inner{
+         width: 20%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+  font-size: 14px;
+            
+            }
+
+            .form-select{
+
+font-size: 15px;
+            
+
+             
+            
+            }
+
+            .lux{
+
+                margin-top: 50px;
+               display: flex;
+               flex-direction: column;
+               margin-bottom: 50px;
+
+            }
+            .img-text{
+
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            .crd{
+
+width: 90%;
+left: 30px;
+
+            }
+
+
+
+            #imgg{
+
+
+            }
+
+            .dark{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+
+            }
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 400px) {
+
+    .hero-text{
+
+  margin-top: 200px;
+  margin-bottom: 50px;
+
+    }
+    .hero-text h1{
+
+   font-size: 8vw;
+      
+          }
+          .card-wrapper{
+position: absolute;
+           width:80%;
+      top: 650px;
+      height: 15vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap:wrap;
+gap: 10px;
+          }
+          .book{
+
+
+
+            padding: 5px 15px;
+            font-size:20px ;
+        }
+        .container-inner{
+         width: 20%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+  font-size: 14px;
+            
+            }
+
+            .form-select{
+
+font-size: 15px;
+            
+
+             
+            
+            }
+
+            .lux{
+
+                margin-top: 80px;
+               display: flex;
+               flex-direction: column-reverse;
+               margin-bottom: 50px;
+
+            }
+            .img-text{
+
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            .crd{
+top:20px;
+width: 90%;
+left: 30px;
+height: 50vh;
+margin-bottom: 50px;
+
+            }
+
+
+
+        
+
+            .dark{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+           
+                flex-direction: column;
+
+            }
+            .comfort{
+
+                margin-top: 10px;
+            }
+  }

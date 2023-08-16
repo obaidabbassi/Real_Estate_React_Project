@@ -1,0 +1,46 @@
+/* From https://css.glass */
+
+.nav{
+    background-color:#0D6EFD;
+display: flex;
+align-items: center;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+
+height: 15vh;
+}
+.wrapper{
+    position:sticky;
+    background-color: #0D6EFD;
+}
+
+.ul{
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+gap:20px;
+align-items: center;
+    
+}
+li a{
+
+    text-decoration: none;
+    color:rgb(214, 212, 212);
+    font-size: 1.0vw;
+}
+
+ a:hover{
+
+    color:rgba(0, 0, 0, 0.959) !important;
+}
+
+.ham{
+
+
+    display: none;
+}
+
+
+
+

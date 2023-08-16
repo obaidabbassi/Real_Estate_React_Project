@@ -1,0 +1,67 @@
+.contact-wrapper{
+
+    background-image: url('/public/Images/contact.jpg');
+    background-position: center;
+    background-size: cover;
+object-fit: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+
+
+}
+.inner-cont{
+
+
+
+}
+.fields{
+
+width: 75%;
+
+}
+
+.contact{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card{
+
+border-radius: 10px;
+box-shadow: -2px 11px 10px -3px rgba(0,0,0,0.31);
+-webkit-box-shadow: -2px 11px 10px -3px rgba(0,0,0,0.31);
+-moz-box-shadow: -2px 11px 10px -3px rgba(0,0,0,0.31);
+
+}
+
+.glass{
+
+
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass-wrapper{
+
+
+    position: relative;
+}
+
+.glass{
+
+    position: absolute;
+   left:650px;
+   top: 20px;
+ 
+ 
+}
